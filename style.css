@@ -15,3 +15,7 @@ body {
 #guessedNumber {
   padding: 10px;
 }
+
+.Submit {
+  cursor: pointer;
+}
