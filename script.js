@@ -25,6 +25,7 @@ btnSubmit.addEventListener("click", function () {
     score--;
     if (score === 0) {
       inpFld.disabled = true;
+      btnSubmit.disabled = true;
       message.textContent = `You lose the game. The correct random Number is ${randomNumber}`;
     }
     score1.textContent = score;
